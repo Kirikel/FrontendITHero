@@ -1,0 +1,19 @@
+.Vacancy {
+    width: max-content;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    gap: 40px;
+
+    color: #000;
+}
+.Title {
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+.Deadline {
+    width: max-content;
+}
