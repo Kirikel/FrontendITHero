@@ -1,3 +1,4 @@
+import { ChangeEvent } from "react"
 import s from "./Input.module.scss"
 
 type InputProps = {
@@ -6,7 +7,7 @@ type InputProps = {
     placeHolder: string,
     required: boolean,
     value: string,
-    onChange: () => void
+    onChange: (e: ChangeEvent<HTMLInputElement>) => void
 }
 
 export default function Input(props: InputProps) {
