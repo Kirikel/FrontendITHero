@@ -1,0 +1,23 @@
+.Tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+
+    font-size: 18px;
+    font-weight: 500;
+
+    color: var(--primary);
+    
+    border-radius: var(--border-radius-m);
+    padding: 12px 0;
+
+    cursor: pointer;
+
+    transition: var(--transition);
+
+    &:hover {
+        background: #E8EAED;
+    }
+}

@@ -1,0 +1,15 @@
+.TabList {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+
+    gap: 8px;
+    padding: 4px;
+
+    border-radius: var(--border-radius-l);
+    background: var(--body-color);
+
+    border: var(--border);
+}

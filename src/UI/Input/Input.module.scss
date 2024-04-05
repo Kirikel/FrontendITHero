@@ -1,0 +1,26 @@
+.Input {
+    padding: 16px;
+    width: calc(100% - 32px);
+
+    font-size: 18px;
+    font-weight: 500;
+
+    color: var(--black);
+    background: var(--body-color);
+
+    border: var(--border);
+    border-radius: var(--border-radius-l);
+    
+
+    &::placeholder {
+        color: #BBC9DD
+    }
+
+    &:hover {
+        border-color: lighten(#BBC9DD, 6)
+    }
+    &:focus {
+        border-color: lighten(#BBC9DD, 6)
+    }
+}
+
